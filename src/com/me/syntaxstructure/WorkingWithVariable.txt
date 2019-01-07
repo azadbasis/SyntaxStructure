@@ -1,0 +1,43 @@
+  ==  ====Primitive Data Type=====
+        1. Number, Character and Boolean
+
+        2.Primitive types are values, not objects
+
+        3.primitive type names are all lowercase
+              int,char,short,long,boolean
+
+        4.A String is an Object !
+
+        int myVar = 10
+        int=> data type
+        myVar=> The identifier or the variable name
+        10=> value
+
+        ====Primitive Wrapper Class====
+        1.Each primitive data type there is an equivalent class.
+
+        2.Class library includes wrapper classes for each primitive.
+
+        3.These are available in the standard Java class library,
+          and they're members of a package called java.lang, or lang for language.
+
+        4.Wrapper classes support conversion and formatting tools
+
+        5.These wrapper classes implement static methods for converting values to the target data type,
+          for formatting values as strings, and for parsing strings and turning the strings into numbers.
+
+        6.Most of the helper classes have the same name as the data type itself,
+          but with an uppercase initial character to indicate that it's a class identifier.
+
+        7.The exceptions are integer for int and character for char.
+          In these cases, the names are fully spelled out for the wrapper classes.
+
+        8. Every Java class supports the toString method, but toString does different things depending on the nature of the class
+
+        9.You can also get a string-based value from a primitive value by calling the toString method of the class.
+
+        10. The helper classes are enormously valuable.
+            That's where you'll find all of the functionality for managing primitive values. A primitive value isn't an object.
+            It can't have methods. But its equivalent helper classes can do the work for you.
+
+            ====Declare and modify primitive values=====
